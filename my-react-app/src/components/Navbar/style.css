@@ -1,0 +1,114 @@
+.width1 {
+    width: 70%;
+    margin: auto;
+  }
+  nav {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+  }
+  
+  .h_right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .itm_holder {
+    padding-top: 27px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 27px;
+  }
+  
+  .number {
+    padding-right: 100px;
+  }
+  
+  
+  a {
+    position: relative;
+    text-decoration: none;
+    color: black; /* Цвет текста кнопки */
+    transition: 0.3s ease;
+  }
+  
+  .logo {
+    width: 113px;
+    height: 56.5px;
+  }
+  
+  .bths {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bths a {
+    padding-right: 60px;
+  }
+  
+  .catalog {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+  }
+  
+  .bths a:hover::before {
+    content: "";
+    position: absolute;
+    top: -48px;
+    left: 0;
+    width: 70%;
+    height: 2px; /* Толщина линии */
+    background-color: red; /* Цвет линии */
+  }
+  
+  .txt {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .num {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .num > span {
+    color: red;
+  }
+  
+  .menu {
+    width: 23px;
+    padding-right: 10px;
+  }
+  
+  .find {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    transition: 0.3s ease;
+  }
+  
+  .find:hover {
+    background-color: rgba(255, 0, 0, 0.747);
+  }
+  
+  .cart {
+    padding-left: 10px;
+    width: 30px;
+  
+    transition: width 0.3s ease;
+  }
+  
+  .cart_holder {
+    width: 40px;
+  }
+  
+  .cart:hover {
+    width: 35px;
+  }

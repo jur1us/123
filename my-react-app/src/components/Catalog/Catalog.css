@@ -1,0 +1,57 @@
+/* Catalog.css */
+
+.width {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .catalog_lower {
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    width: 30%;
+    margin: 10px;
+    position: relative;
+  }
+  
+  .image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .product-text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Чорний напівпрозорий фон */
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Intro Black';
+    padding: 10px; /* Подальше налаштування відступів за потребою */
+    box-sizing: border-box;
+    margin-bottom: 5px; /* Додав відступ внизу */
+    opacity: 1; /* Змінив opacity на 1 за замовчуванням */
+    transition: opacity 0.3s ease-in-out; /* Додав transition для згладження зникання/з'явлення */
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .product:hover .img {
+    transform: scale(1.1);
+  }
+  
+  .product .img:hover + .product-text,
+  .product:hover .product-text {
+    opacity: 1;
+  }
+  

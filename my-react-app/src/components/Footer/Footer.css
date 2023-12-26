@@ -1,0 +1,56 @@
+/* Footer.css */
+
+.footer {
+    margin-top: 100px ;
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    border-top: 0.5px solid rgb(0, 0, 0); /* Додавання верхньої полоски */
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-section {
+    flex: 1;
+  }
+  
+  .footer-logo {
+    width: 100px; /* Задайте розмір логотипу за необхідністю */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .subscribe {
+    position: relative;
+  }
+  
+  input {
+    border: none;
+    outline: none;
+    background: none;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    padding-bottom: 3px; /* Зменшив відстань між текстом і полоскою */
+    width: 100%;
+  }
+  
+  .underline {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 80%; /* Зменшив ширину полоски для інпута */
+    background-color: rgb(0, 0, 0);
+  }
+  

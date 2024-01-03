@@ -23,23 +23,4 @@ const products = [
   { id: 9, name: "Сумки & Рюкзаки", image: nineImage },
 ];
 
-const Catalog = () => {
-  return (
-    <div className="width">
-      <div className="catalog_lower">
-        {products.map((product) => (
-          <div key={product.id} className="product">
-            <div className="image-container">
-              <a href="@">
-                <img src={product.image} alt={product.name} className="img" />
-              </a>
-              <p className="product-text">{product.name}</p>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-};
-
 export default Catalog;

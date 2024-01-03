@@ -11,6 +11,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
   }
   
   .footer-section {
@@ -43,6 +46,13 @@
     font-size: 14px;
     padding-bottom: 3px; /* Зменшив відстань між текстом і полоскою */
     width: 100%;
+  }
+
+  .sub_txt {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
   }
   
   .underline {

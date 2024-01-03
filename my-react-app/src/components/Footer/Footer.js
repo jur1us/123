@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="footer-content">
                 <div className="footer-section">
                 <img src={logo} alt="Logo" className="footer-logo" />
-                <p>2019-23 SMASH</p>
+                <p>© 2019-23 SMASH</p>
                 </div>
 
                 <div className="footer-section">
@@ -34,7 +34,7 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-section">
-                <h2>Підписка</h2>
+                <h2 className="sub_txt">Підписка</h2>
                 <div className="subscribe">
                     <input type="text" placeholder="Введіть ваш email" />
                     <div className="underline"></div>
